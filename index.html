@@ -595,7 +595,7 @@ gasForm.addEventListener('submit', async function(e) {
     });
 
     // 只要發送過程沒有拋出網路中斷異常，即代表 GAS 已順利接收
-    showStatus("✅ 需求已成功送出！資料已自動寫入後台紀錄並發送 Email 通知。", "bg-emerald-950 text-emerald-300 border border-emerald-800");
+    showStatus("✅ 需求已成功送出！資料已自動寫入後台紀錄，我們將會於24小時內與您聯繫", "bg-emerald-950 text-emerald-300 border border-emerald-800");
     gasForm.reset();
 
   } catch (err) {
